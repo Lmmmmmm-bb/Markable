@@ -8,8 +8,12 @@ specifiers:
   eslint-plugin-vue: ^8.6.0
   nuxt3: latest
   prettier: ^2.6.2
+  primeicons: ^5.0.0
   typescript: ^4.6.3
   vite-plugin-eslint: ^1.4.0
+
+dependencies:
+  primeicons: 5.0.0
 
 devDependencies:
   '@nuxtjs/eslint-config-typescript': 9.0.0_eslint@8.13.0+typescript@4.6.3
@@ -4832,6 +4836,10 @@ packages:
     resolution: {integrity: sha512-6UqkYefdogmzqAZWzJ7laYeJnaXDy2/J+ZqiiMtS7t7OfpXWTlaeGMwX8U6EFvPV/YWWEKRkS8hKS4k60WHTOg==}
     engines: {node: ^14.13.1 || >=16.0.0}
     dev: true
+
+  /primeicons/5.0.0:
+    resolution: {integrity: sha512-heygWF0X5HFI1otlZE62pp6ye7sZ8om78J9au2BRkg8O7Y8AHTZ9qKMRzchZUHLe8zUAvdi6hZzzm9XxgwIExw==}
+    dev: false
 
   /process-nextick-args/2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
