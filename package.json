@@ -4,7 +4,7 @@
     "dev": "nuxi dev & npm run style:watch",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
-    "style:watch": "npx typed-scss-modules **/*.module.scss --watch"
+    "style:watch": "npx typed-scss-modules assets/styles/*.module.scss --watch"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^9.0.0",
