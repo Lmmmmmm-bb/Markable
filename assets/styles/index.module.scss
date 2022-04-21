@@ -1,0 +1,52 @@
+@use './common/variables';
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+  background-color: variables.$bgColor;
+
+  .dataTable {
+    width: 100%;
+
+    &Header {
+      margin-right: 8px;
+    }
+  }
+
+  .splitterWrapper {
+    height: 100%;
+    width: 100%;
+
+    .splitterAction {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  :global {
+    .p-picklist {
+      height: calc(100% - 45px);
+      flex-direction: column;
+      justify-content: space-between;
+
+      .p-picklist-source-controls,
+      .p-picklist-target-controls {
+        display: none;
+      }
+
+      .p-picklist-transfer-buttons {
+        flex-direction: row;
+      }
+
+      .p-splitter-panel {
+        padding: 24px;
+      }
+    }
+  }
+}
