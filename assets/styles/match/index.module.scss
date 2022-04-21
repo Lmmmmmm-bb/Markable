@@ -1,0 +1,26 @@
+.wrapper {
+  .inputWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+
+    .input {
+      width: 300px;
+    }
+  }
+
+  :global {
+    .p-picklist {
+      height: 100%;
+      padding: 24px;
+      .p-picklist-list-wrapper {
+        margin: 24px;
+      }
+
+      .p-picklist-buttons {
+        display: none;
+      }
+    }
+  }
+}
