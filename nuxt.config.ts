@@ -16,5 +16,8 @@ export default defineNuxtConfig({
     'primevue/resources/primevue.css',
     'primeicons/primeicons.css',
     'assets/styles/common/global.scss'
-  ]
+  ],
+  build: {
+    transpile: ['primevue']
+  }
 });
